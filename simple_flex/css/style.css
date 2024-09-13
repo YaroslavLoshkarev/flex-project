@@ -1,0 +1,37 @@
+.flex-wrapper{
+	max-width:100%;
+	width:1000px;
+	display:flex;
+	margin: 0 auto;
+	min-height:500px;
+	
+	flex-direction:row;
+}
+.flex-block{
+	display:flex;
+	flex-basis:100%;
+	justify-content: center;
+	
+}
+.alone{
+	align-items:center;
+	flex-basis:100%;
+	border:3px solid DimGray;
+	background-color: LightPink;
+	margin:2px;
+}
+.parent{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-content: center;
+}
+.flex-element{
+	display:flex;
+	flex:auto;	
+	justify-content: center;
+	align-items: center;
+	border:3px solid DimGray;
+	background-color: LightPink;
+	margin:2px;
+}
