@@ -63,4 +63,5 @@ flex-main-div and others
 	border-radius:5px;
 	flex-basis:30%;
 	margin:3px;
+	flex-grow:1;
 }
